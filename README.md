@@ -4,7 +4,7 @@
 
 Site de calculo de notas UNIP
 
-<a href="https://notasunip.netlify.app/ target="_blank">
+<a href="https://notasunip.netlify.app/" target="_blank">
     Click aqui para visualizar o site!
 </a>
 
