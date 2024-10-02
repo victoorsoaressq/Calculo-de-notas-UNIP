@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #013e6d;
+    background-image: url('../assets/img/background.png') !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: #212121;
+}
+
+img {
+    width: 200px;
+}
+
+.cont {
+    width: 280px;
+    margin: 2rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    margin: 0.4rem 0;
+    padding: 0 1rem;
+
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+
+    background-color: #e8f0ff;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    margin-top: 0.5rem;
+
+    border-radius: 0.4rem;
+    border: none;
+
+    background-color: #28a745;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+#text{
+    margin-top: 2rem;
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#exameInput {
+    display: none;
+}
+
+#contExame {
+    display: none;
+}
+
+#voltar {
+    display: none;
+}

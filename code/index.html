@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Unip</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <img src="./assets/img/logo-unip.svg" alt="unip">
+
+    <div id="text"></div>
+
+    <div class="cont">
+
+        <div class="contNota">
+            <input id="np1" type="number" min="0" placeholder="NP1">
+            <input id="np2" type="number" min="0" placeholder="NP2">
+            <input id="pim" type="number" min="0" placeholder="PIM">
+
+            <button onclick="calcular()">
+                Calcular
+            </button>
+        </div>
+
+        <div id="contExame">
+            <input id="exame" type="number" min="0" placeholder="EXAME">
+
+            <button onclick="calcularExame()">
+                Calcular
+            </button>
+        </div>
+
+        <div id="voltar">
+            <button onclick="atualizar()">
+                Voltar
+            </button>
+        </div>
+
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
